@@ -6,7 +6,7 @@ A CMS-style blog site similar to a Wordpress site, where users can publish blog 
 - bcrypt package to hash passwords
 - dotenv for environment variables
 - express-session and connect-sequelize for authentication
-- Handlebars.js as the templating language
+- Handlebars.js for templating
 - Heroku for deployment
 - MVC paradigm for the architectural structure
 - Sequelize as the ORM
