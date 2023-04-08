@@ -84,6 +84,18 @@ header {
   justify-content: start;
 }
 
+.create-row {
+  padding: 4rem;
+  padding: 0% 3% 0% 3%;
+}
+
+@media screen and (max-width: 767px) {
+  .create-row {
+    width: 95%;
+    margin: auto
+  }
+}
+
 .row-container {
   border: 3px solid #231010;
   margin: 0rem 2rem 2rem 2rem;
