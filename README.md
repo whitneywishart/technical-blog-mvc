@@ -1,6 +1,6 @@
-# Model-View-Controller (MVC): Tech Blog
+# Tech Blog
 ## Description
-A CMS-style blog site similar to a Wordpress site, where users can publish blog posts and comment on other posts.
+A CMS-style blog built using the Model-View-Controller (MVC) paradigm. This site allows users to  author and publish blog posts, delete their own posts, and comment on other posts.
 
 ## Technologies
 - bcrypt package to hash passwords

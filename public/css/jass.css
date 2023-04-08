@@ -34,7 +34,7 @@ main {
  */
 h1 {
   font-size: 2em;
-  /* margin: 0.67em 0; */
+  line-height: 255%
 }
 
 /* Grouping content
@@ -353,21 +353,6 @@ body {
   min-height: 100%;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  font-size: 16px;
-  color: #1a1a1a;
-  margin: .25rem;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 1.2;
-}
 
 h1 {
   font-size: 2.25rem;
@@ -375,6 +360,8 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  margin: 0;
+  padding-top: .5rem;
 
 }
 
@@ -394,33 +381,10 @@ h6 {
   font-size: 1rem;
 }
 
-p {
-  line-height: 1.2;
-}
-
-.title {
-  margin-top: 3rem;
-}
-
-.title a {
-  background-color: #d9ead3;
-  box-shadow: 8px 7px 0px #a7a7a7;
-  border-radius: 10px;
-  padding: .5rem 1rem .75rem 1rem;
-  font-size: 3rem;
-  color: #231010;
-}
-
-.title>a:hover {
-  color: #703434;
-  text-decoration: none;
-}
-
 ul,
 ol,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
 }
 
 label {
@@ -434,15 +398,6 @@ button {
   margin: 0;
 }
 
-a {
-  color: #1b89bc;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #065b83;
-  text-decoration: underline;
-}
 
 /* HEIGHT / WIDTH UTILS */
 .w-100 {
@@ -1178,10 +1133,6 @@ label form [type='checkbox'],
 label form [type='radio'] {
   display: inline-block;
 }
-
-/* .container {
-  width: 100%;
-} */
 
 .container.container-fluid {
   width: 100%;
