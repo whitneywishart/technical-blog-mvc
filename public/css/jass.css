@@ -19,6 +19,7 @@ html {
  */
 body {
   margin: 0;
+  
 }
 
 /**
@@ -26,6 +27,7 @@ body {
  */
 main {
   display: block;
+  
 }
 
 /**
@@ -1165,7 +1167,7 @@ label form [type='radio'] {
 
 .justify-space-around {
   justify-content: space-around;
-  background-color: #d9ead3;
+  
 }
 
 .justify-flex-start {
