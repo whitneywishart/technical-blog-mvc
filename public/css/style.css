@@ -1,5 +1,19 @@
-header, .post:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+.outer-border {
+  padding: 1px;
+  background: #231010;
+  border-radius: 4px
+}
+
+
+.inner-border {
+  padding: 4px;
+  background: white;
+  border-radius: 2px;
+}
+
+header {
+  background-color: #231010;
+  padding: 2rem;
 }
 
 .no-button {
@@ -12,13 +26,13 @@ header, .post:not(:last-child) {
   font-size: 100%;
 }
 
+#login {
+  color: #d9ead3;
+  font-size: 1.75rem;
+  cursor: pointer;
+}
+
 .no-button:hover {
   color: #065b83;
   text-decoration: underline;
-}
-
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
 }

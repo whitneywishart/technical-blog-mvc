@@ -7,23 +7,26 @@
   <title>The Tech Blog</title>
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
-</head>
+  <div class="outer-border" >
+    <div class="inner-border">
 
 <body>
   <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
-      <h1>
-        <span role="img" aria-label="money">💸</span>
-        <a href="/">The Tech Blog</a>
-      </h1>
+    <header class="display-flex justify-space-between align-center container container-fluid">
       <nav>
-        <!-- Conditionally render login or logout links -->
-        {{#if logged_in}}
-        <a href="/profile">profile</a> |
-        <button class="no-button" id="logout">logout</button>
-        {{else}}
-        <a href="/login">login</a>
-        {{/if}}
+        <div class="row"> <!-- Conditionally render login or logout links -->
+          {{#if logged_in}}
+          <a href="/profile">Dashboard</a> |
+          <button class="no-button" id="logout">Logout</button>
+          {{else}}
+          <a href="/login" id="login">Login</a>
+          {{/if}}
+        </div>
+        <div class="row">
+          <h1 class="title">
+            <a href="/">The Tech Blog</a>
+          </h1>
+        </div>
       </nav>
     </header>
     <main class="container container-fluid mt-5">
@@ -31,8 +34,9 @@
       {{{ body }}}
     </main>
     <footer>
-      
+
     </footer>
+  </div>
   </div>
 
   <!-- Render script for logged in users only -->
@@ -40,5 +44,6 @@
   <script src="/js/logout.js"></script>
   {{/if}}
 </body>
+</div>
 
 </html>
