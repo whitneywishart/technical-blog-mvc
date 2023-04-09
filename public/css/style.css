@@ -18,7 +18,6 @@ body {
   background-color: #d9ead3;
   box-shadow: 8px 7px 0px #a7a7a7;
   border-radius: 10px;
-  padding: .5rem 1rem .75rem 1rem;
   font-size: 3rem;
   color: #231010;
 }
@@ -56,10 +55,7 @@ a:hover {
   border-radius: 2px;
 }
 
-header {
-  background-color: #231010;
-  padding: 2rem;
-}
+
 
 .no-button {
   background: none;
@@ -82,6 +78,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: start;
+  padding-top: 2rem;
 }
 
 .create-row {
@@ -118,4 +115,124 @@ header {
 .no-button:hover {
   color: #703434;
   text-decoration: underline;
+}
+
+.post-list {
+  margin: 0;
+  padding: 0;
+}
+
+textarea,
+input {
+  padding: .5%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  border: 1px solid #3486eb;
+}
+
+textarea {
+  min-width: 40%;
+  min-height: 100px;
+}
+
+form>div {
+  margin-bottom: 2%;
+}
+
+form label {
+  display: block;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #231010;
+}
+
+main {
+  flex: 1;
+
+}
+
+.btn-no-style {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: #225ca3;
+  font-size: 100%;
+  font-weight: bold;
+  transition: color .1s;
+  margin-left: 16px;
+}
+
+.btn-no-style:hover {
+  background: none;
+  color: #3486eb;
+}
+
+.delete-post-btn {
+  background-color: #d41414;
+}
+
+.delete-post-btn:hover {
+  background-color: #ff643d;
+}
+
+.post {
+  margin-bottom: 2%;
+  line-height: 150%;
+}
+
+.post .title span {
+  font-style: italic;
+  font-size: 90%;
+  color: #7d7d7d;
+}
+
+.edit-link {
+  display: block;
+  margin: -1.5% 0 2% 0;
+}
+
+.comment-form {
+  margin-bottom: 5%;
+}
+
+.comment {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.comment:nth-child(odd) {
+  background-color: #fff5eb;
+}
+
+.comment .meta {
+  font-size: 90%;
+  margin-bottom: .5%;
+  opacity: .6;
+}
+
+.edit-post-form {
+  margin-bottom: 5%;
+}
+
+
+.card {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
 }
