@@ -10,7 +10,9 @@ body {
   background-color: #d9ead3;
 }
 
-.title {}
+.title {
+  padding: 1rem 0rem 1rem 0rem;
+}
 
 .title a {
   background-color: #d9ead3;
@@ -36,7 +38,7 @@ body {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 a {
@@ -58,8 +60,9 @@ a:hover {
 
 
 .inner-border {
+
   padding: 4px;
-  background: white;
+  background: #d9ead3;
   border-radius: 2px;
 }
 
@@ -73,6 +76,10 @@ a:hover {
   color: #1b89bc;
   text-decoration: none;
   font-size: 100%;
+}
+
+nav {
+  background-color: #231010;
 }
 
 
@@ -125,11 +132,9 @@ a:hover {
   .title-row {
     text-align: center;
     padding: 0rem 0rem .5rem 0rem;
-
-
-
   }
 }
+
 
 @media screen and (max-width: 450px) {
   .btn-logout {
@@ -137,24 +142,51 @@ a:hover {
   }
 }
 
-
-
-
-.row-container {
+.list-border {
   border: 3px solid #231010;
-  margin: 0rem 2rem 2rem 4rem;
-
 }
 
-nav {
+.post-list-container {
+  border: 3px solid #231010;
+  margin: 1rem;
+}
+
+.list-title {
+  color: #a4a3a4;
+  font-size: 1.5rem;
+  font-weight: bold;
   background-color: #231010;
+  padding: 1rem 0rem 1.5rem 3rem;
 }
 
-.description-row-container {
-  color: black;
-  padding: 0rem 1rem 0rem 1rem;
-
+.list-post {
+  font-size: 1.25rem;
+  padding: 1rem 0rem 1.5rem 3rem;
 }
+
+.posted-by {
+  color: #a4a3a4;
+  text-align: right !important;
+  background-color: #231010;
+  padding: 1.438rem 1rem 0rem 0rem;
+}
+
+.edit {
+  margin: 0rem 0rem 1rem 3rem;
+}
+
+.post-a-comment {
+  padding: 0rem 0rem 0rem 3rem;
+}
+
+.dashboard {
+  padding: 1rem 0rem 1rem 4rem;
+}
+
+.submit {
+  margin-left: 1.625rem;
+}
+
 
 .no-button:hover {
   color: #703434;
@@ -185,7 +217,7 @@ textarea {
 }
 
 form>div {
-  margin-bottom: 2%;
+  margin: 1%;
 }
 
 form label {
@@ -224,8 +256,6 @@ main {
   background-color: #ff643d;
 }
 
-
-
 .post {
   margin-bottom: 2%;
   line-height: 150%;
@@ -243,7 +273,7 @@ main {
 }
 
 .comment-form {
-  margin-bottom: 5%;
+  margin-bottom: 0%;
 }
 
 .comment {
