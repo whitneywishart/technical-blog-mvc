@@ -34,10 +34,6 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
-  font-size: 2em;
-  line-height: 255%
-}
 
 /* Grouping content
    ========================================================================== */
@@ -987,6 +983,16 @@ button {
 }
 
 .btn.btn-primary:hover {
+  background-color: #737373;
+  color: #d9e9e8;
+}
+
+.btn.btn-logout {
+  background-color: #594D4A;
+  color: #F2F2F2;
+}
+
+.btn.btn-logout:hover {
   background-color: #737373;
   color: #d9e9e8;
 }

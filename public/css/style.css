@@ -10,9 +10,7 @@ body {
   background-color: #d9ead3;
 }
 
-.title {
-  margin-top: 3rem;
-}
+.title {}
 
 .title a {
   background-color: #d9ead3;
@@ -20,11 +18,21 @@ body {
   border-radius: 10px;
   font-size: 3rem;
   color: #231010;
+  padding: .25rem 1rem .5rem 1rem;
 }
 
 .title>a:hover {
   color: #703434;
   text-decoration: none;
+}
+
+@media screen and (max-width: 450px) {
+  .title a {
+    flex-direction: column;
+    text-align: center;
+    font-size: 95%;
+
+  }
 }
 
 p {
@@ -67,43 +75,79 @@ a:hover {
   font-size: 100%;
 }
 
+
+
 .nav-links {
   color: #d9ead3;
   font-size: 1.5rem;
-  cursor: pointer;
-  padding: 0rem 5rem 0rem 0rem;
+
 }
 
 .nav-row {
-  width: 100%;
+  width: 30%;
   display: flex;
-  justify-content: start;
-  padding-top: 2rem;
+  justify-content: space-between;
+  padding: 2rem 0rem 0rem 4rem;
+  flex-wrap: wrap;
+  gap: .75rem
 }
 
-.create-row {
-  padding: 4rem;
-  padding: 0% 3% 0% 3%;
-}
+@media screen and (max-width: 1366px) {
+  .nav-row {
+    width: 50%;
 
-@media screen and (max-width: 767px) {
-  .create-row {
-    width: 95%;
-    margin: auto
   }
 }
 
+@media screen and (max-width: 768px) {
+  .nav-row {
+    width: 80%;
+
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav-row {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 0rem 0rem 0rem;
+    margin: auto;
+    width: 100%;
+
+  }
+}
+
+.title-row {
+  padding: 0rem 0rem .5rem 4rem;
+}
+
+@media screen and (max-width: 450px) {
+  .title-row {
+    text-align: center;
+    padding: 0rem 0rem .5rem 0rem;
+
+
+
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .btn-logout {
+    margin: 0% 35% 0% 35%;
+  }
+}
+
+
+
+
 .row-container {
   border: 3px solid #231010;
-  margin: 0rem 2rem 2rem 2rem;
+  margin: 0rem 2rem 2rem 4rem;
 
 }
 
-.header-row-container {
-  color: #a4a3a4;
+nav {
   background-color: #231010;
-  padding: 1rem;
-
 }
 
 .description-row-container {
@@ -149,13 +193,6 @@ form label {
 }
 
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #231010;
-}
-
 main {
   flex: 1;
 
@@ -186,6 +223,8 @@ main {
 .delete-post-btn:hover {
   background-color: #ff643d;
 }
+
+
 
 .post {
   margin-bottom: 2%;

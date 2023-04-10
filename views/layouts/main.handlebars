@@ -13,18 +13,21 @@
     <div>
       <header>
         <nav>
-          {{#if loggedIn}}
-          <a href="/">Home</a>
-          <a href="/dashboard">Dashboard</a>
-          <a href="/dashboard/create/" class="navbar-item is-hoverable pt-1 mr-4">Create Post</a>
-          <button id="logout" class="btn btn-danger btn-sm">Logout</button>
-          {{else}}
-          <a href="/">Home</a>
-          <a href="/login" class="button is-primary">Login</a>
-          {{/if}}
-          <h1 class="title">
-            <a href="/">The Tech Blog</a>
-          </h1>
+          <div class="nav-row">
+            {{#if loggedIn}}
+            <a href="/" class="nav-links">Home</a>
+            <a href="/dashboard" class="nav-links">Dashboard</a>
+            <button id="logout" class="btn btn-logout btn-sm nav-links">Logout</button>
+            {{else}}
+            <a href="/">Home</a>
+            <a href="/login" class="button is-primary">Login</a>
+            {{/if}}
+          </div>
+          <div class="title-row">
+            <h1 class="title">
+              <a href="/">The Tech Blog</a>
+            </h1>
+          </div>
         </nav>
       </header>
 
