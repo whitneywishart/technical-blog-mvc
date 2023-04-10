@@ -1,6 +1,6 @@
 # Tech Blog
 ## Description
-A CMS-style blog built using the Model-View-Controller (MVC) paradigm. This site allows users to author and publish blog posts, delete their own posts, and comment on other posts.
+A CMS-style blog built using the Model-View-Controller (MVC) paradigm. This site allows users to author and publish blog posts, delete their own posts, and comment on others' posts.
 
 ## Technologies
 - bcrypt package to hash passwords
@@ -22,4 +22,4 @@ https://mylink.com
 https://github.com/whitneywishart/mvc-tech-blog
 
 ## Screenshot
-<img src="./assets/images/screenshot.png" width="500">
+<img src="./assets/images/screenshot.png" width="800">
