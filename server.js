@@ -22,7 +22,6 @@ const sess = {
     httpOnly: true,
     secure: false,
     sameSite: 'strict',
-    rolling: true,
   },
   resave: false,
   saveUninitialized: true,
