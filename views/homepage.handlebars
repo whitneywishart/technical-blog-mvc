@@ -1,8 +1,15 @@
-
+<header>
+    <nav>
+        <div class="nav-row">
+            <h1 class="title">
+                <a href="/">The Tech Blog</a>
+            </h1>
+        </div>
+    </nav>
+</header>
 {{#each posts as |post|}}
 
 {{> post-info post }}
-</div>
 
 {{else}}
 <p>No posts</p>

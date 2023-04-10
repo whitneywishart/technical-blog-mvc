@@ -1,20 +1,28 @@
-<!-- displaying articles -->
-{{> post-info post}}
+<header>
+  <nav>
+    <div class="nav-row">
+      <h1 class="title">
+        <a href="/">The Tech Blog</a>
+      </h1>
+    </div>
+  </nav>
+</header>
 
-<!-- displaying form and comments-->
-<!-- only display if logged in -->
+{{> post-info post }}
+{{!-- Logged in --}}
 {{#if loggedIn}}
 <form class="comment-form">
   <div>
-    <textarea class="ml-5" name="comment-body"></textarea>
+    <textarea name="comment-body" placeholder="Post a comment..."></textarea>
   </div>
 
   <div>
-    <button class="btn btn-primary submit" type="submit">Submit</button>
+    <button class="btn btn-primary" type="submit">Submit</button>
   </div>
-  
+
 </form>
 {{/if}}
+
 
 {{> comments post.comments}}
 

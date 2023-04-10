@@ -16,12 +16,13 @@ const PORT = process.env.PORT || 3001;
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const sess = {
-  secret: 'Super secret secret',
+  secret: 'Super secret secret secret',
   cookie: {
-    maxAge: 300000,
+    maxAge: 600000,
     httpOnly: true,
     secure: false,
     sameSite: 'strict',
+    rolling: true,
   },
   resave: false,
   saveUninitialized: true,

@@ -865,7 +865,11 @@ button {
 }
 
 .text-light {
-  color: #d9e9e8 !important;
+  color: #e8e6f7 !important;
+}
+
+.text-light-green {
+  color: #d9ead3 !important;
 }
 
 .text-dark {
@@ -881,7 +885,8 @@ button {
 }
 
 .text-link {
-  color: #1b89bc !important;
+  color: #0809fe !important;
+  font-size: 1.5rem;
 }
 
 /* BACKGROUND UTILS */
@@ -979,7 +984,7 @@ button {
 }
 
 .btn.btn-primary {
-  background-color: #594D4A;
+  background-color: #666666;
   color: #F2F2F2;
 }
 
@@ -1059,6 +1064,10 @@ button {
 
 .btn.btn-link:hover {
   background-color: #31a9e1;
+}
+
+.btn.btn-link a {
+  color: #e8e6f7;
 }
 
 form {

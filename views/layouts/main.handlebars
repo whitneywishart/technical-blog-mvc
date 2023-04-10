@@ -10,23 +10,20 @@
 </head>
 <div class="outer-border">
   <div class="inner-border">
-    <div class="background" >
+    <div class="background">
       <header>
         <nav>
-          <div class="nav-row"> 
+          <div class="nav-row nav-row-top">
             {{#if loggedIn}}
             <a href="/" class="nav-links">Home</a>
             <a href="/dashboard" class="nav-links">Dashboard</a>
-            <button id="logout" class="btn btn-logout btn-sm nav-links">Logout</button>
+            <a href="/" id="logout" class="nav-links">Logout</a>
             {{else}}
-            <a href="/">Home</a>
-            <a href="/login" class="button is-primary">Login</a>
+            <div class="nav-row-logged-out">
+              <a href="/" class="nav-links">Home</a>
+              <a href="/login" class="nav-links">Login</a>
+            </div>
             {{/if}}
-          </div>
-          <div class="title-row">
-            <h1 class="title">
-              <a href="/">The Tech Blog</a>
-            </h1>
           </div>
         </nav>
       </header>

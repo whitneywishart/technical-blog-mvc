@@ -1,24 +1,38 @@
-<div class="column">
-  <h2>Sign up</h2>
-  <hr>
+<header>
+  <nav>
+    <div class="nav-row">
+      <h1 class="title">
+        <a href="/">The Tech Blog</a>
+      </h1>
+    </div>
+  </nav>
+</header>
+<div class="post-list-container">
+  <div class="list-title text-light-green">Sign up</div>
   <form class="signup-form">
     <div>
-      <label for="username-signup">Username:</label>
-      <input type="text" id="username-signup" />
+      <label for="username-signup">Username</label>
+      <input class="input edit-post" type="text" id="username-signup" />
     </div>
     <div>
-      <label for="email-signup">Email:</label>
-      <input type="text" id="email-signup" />
+      <label for="email-signup">Email</label>
+      <input class="input edit-post" type="text" id="email-signup" />
     </div>
     <div>
-      <label for="password-signup">Password:</label>
-      <input type="password" id="password-signup" />
+      <label for="password-signup">Password</label>
+      <input class="input edit-post" type="password" id="password-signup" />
     </div>
     <div>
-      <button type="submit" class="btn btn-primary">Sign up</button>
+      <button type="submit" class="btn btn-update-delete">Sign Up</button>
     </div>
+    <div>
+      <a href="/login" class="text-link">Login instead</a>
+    </div>
+
   </form>
 </div>
+
+
 
 <!-- javascript file-->
 <script src="/javascript/signup.js"></script>
