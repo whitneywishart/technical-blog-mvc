@@ -2,6 +2,8 @@ const router = require('express').Router();
 const sequelize = require('../config/connection');
 const { Post, User, Comment } = require('../models');
 
+app.get('/favicon.ico', (req, res) => res.status(204));
+
 router.get('/', (req, res) => {
     console.log(req.session);
     
@@ -104,5 +106,6 @@ router.get('/login', (req, res) => {
         res.status(500).json(err);
       });
 });
+
 
 module.exports = router;
