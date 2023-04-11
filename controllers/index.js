@@ -12,4 +12,6 @@ router.use((req, res) => {
   res.status(404).end();
 });
 
+app.get('/favicon.ico', (req, res) => res.status(204));
+
 module.exports = router;
