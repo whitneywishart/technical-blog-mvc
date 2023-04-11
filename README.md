@@ -16,10 +16,10 @@ Install the required npm packages via CLI by running:<br>
 `npm i bcrypt npm i dotenv npm i express-session npm i connect-sequelize npm i mysql2 npm i express npm i sequelize`
 
 ## Deployed Heroku Link
-https://mvc-tech-blog.herokuapp.com/
+https://technical-blog-mvc.herokuapp.com/
 
 ## Git repo
-https://github.com/whitneywishart/mvc-tech-blog
+https://github.com/whitneywishart/technical-blog-mvc
 
 ## Screenshot
 <img src="./assets/images/screenshot.png" width="1000">
