@@ -13,7 +13,7 @@ A CMS-style blog built using the Model-View-Controller (MVC) paradigm. This site
 
 ## Installation
 Install the required npm packages via CLI by running:<br>
-`npm i express npm i express-handlebars npm i mysql2 npm i sequelize npm i dotenv npm i bcrypt npm i express-session npm i connect-session-sequelize`
+`npm i express npm i express-handlebars npm i mysql2 npm i sequelize npm i dotenv npm i bcrypt npm i express-session npm i connect-session-sequelize npm i nodemon`
 
 ## Deployed Heroku Link
 https://technical-blog-mvc.herokuapp.com/
