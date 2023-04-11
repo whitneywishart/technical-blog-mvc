@@ -34,7 +34,9 @@ app.use(session(sess));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, 'public')));
+// app.use(express.static(path.join(__dirname, 'public')));
+app.use('/static', express.static(path.join(__dirname, 'public')))
+
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
