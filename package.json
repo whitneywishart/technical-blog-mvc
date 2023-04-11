@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A CMS-style blog built using the Model-View-Controller (MVC) paradigm. This site allows users to author and publish blog posts, delete their own posts, and comment on others' posts.",
   "engines": {
-    "node": "18.15.0"
+    "node": "18.x",
+    "npm": "9.x"
   },
   "main": "server.js",
   "scripts": {
