@@ -17,10 +17,6 @@
   },
   "author": "WW",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/whitneywishart/technical-blog-mvc/issues"
-  },
-  "homepage": "https://github.com/whitneywishart/technical-blog-mvc#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.5",
